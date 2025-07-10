@@ -1,0 +1,6 @@
+*.dart linguist-language=Dart
+*.yaml linguist-documentation
+*.md linguist-documentation
+*.png binary
+*.jpg binary
+*.jpeg binary
