@@ -1,6 +1,10 @@
-*.dart linguist-language=Dart
-*.yaml linguist-documentation
-*.md linguist-documentation
-*.png binary
-*.jpg binary
-*.jpeg binary
+# Ignore platform-specific generated files
+ios/** linguist-vendored
+android/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+build/** linguist-vendored
+
+# Force Dart to be recognized as the main language
+*.dart linguist-detectable=true
