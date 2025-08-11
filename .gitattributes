@@ -8,3 +8,17 @@ build/** linguist-vendored
 
 # Force Dart to be recognized as the main language
 *.dart linguist-detectable=true
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.cxx linguist-vendored
+*.hpp linguist-vendored
+*.cc linguist-vendored
+
+*.html linguist-vendored
+*.htm linguist-vendored
+
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+
+*.js linguist-vendored
+*.ts linguist-vendored
